@@ -1,3 +1,21 @@
+/* common rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --tobo-blue: #47ADF1;
+    --tobo-purple: #9C72E4;
+    --tobo-green: #64C0A9;
+    --tobo-orange: #F29E33;
+    --tobo-fuxia: #9C72E4;
+    --tobo-lightgreen: #B0C926;
+  
+}
+
+/* header */
 .title {
     font-family: 'Arial',  sans-serif;
     display: inline;
