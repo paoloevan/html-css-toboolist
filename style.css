@@ -48,10 +48,6 @@ body {
 
 }
 
-.menu {
-    margin-top: 2px;
-
-}
 
 /* buttons */
 #buttons {
@@ -77,6 +73,13 @@ body {
 }
 
 /* container menu */
+.menu {
+    padding-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 50px;
+    border-radius: 0 0 10px 10px; 
+}
+
 .name_section {
     margin-top: 2rem;
 }
@@ -124,4 +127,12 @@ h3 {
 
 .recruiting {
    background-color: var(--tobo-green); 
+}
+
+.website {
+    background-color: var(--tobo-fuxia); 
+}
+
+.sales {
+    background-color: var(--tobo-lightgreen)
 }
