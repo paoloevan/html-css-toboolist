@@ -69,6 +69,7 @@ body {
 .section {
     background-color: white;
     color: var(--tobo-section);
+    border: 1px solid gray;
     border-color: var(--tobo-section);
 }
 
