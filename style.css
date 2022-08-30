@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial',  sans-serif;
 }
 
 :root {
@@ -13,6 +14,7 @@
     --tobo-fuxia: #9C72E4;
     --tobo-lightgreen: #B0C926;
     --tobo-back: #F6F8F9;
+    --tobo-section: #D8DCE0;
 }
 
 body {
@@ -25,14 +27,39 @@ body {
 }
 
 .title {
-    font-family: 'Arial',  sans-serif;
     display: inline;
     vertical-align: 45%;
 }
 
+/* container */
 #container {
-    background-color: red;
+    background-color: white;
     width: 70%;
     margin: auto;
     margin-top: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+/* buttons */
+#buttons {
+    padding-bottom: 0.5rem;
+}
+
+.add {
+    padding: 0.5rem 0.5rem;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.task {
+    background-color: var(--tobo-blue);
+    color: white;
+    border: none;
+}
+
+.section {
+    background-color: white;
+    color: var(--tobo-section);
+    border-color: var(--tobo-section);
 }
