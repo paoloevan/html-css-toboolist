@@ -12,13 +12,27 @@
     --tobo-orange: #F29E33;
     --tobo-fuxia: #9C72E4;
     --tobo-lightgreen: #B0C926;
-  
+    --tobo-back: #F6F8F9;
+}
+
+body {
+    background-color: var(--tobo-back);
 }
 
 /* header */
+#site_header {
+    background-color: white;
+}
+
 .title {
     font-family: 'Arial',  sans-serif;
     display: inline;
     vertical-align: 45%;
 }
 
+#container {
+    background-color: red;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+}
