@@ -32,13 +32,24 @@ body {
 }
 
 /* container */
-#container {
+.container {
     background-color: white;
     width: 70%;
     margin: auto;
-    margin-top: 2rem;
     padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 1rem;
+}
+
+.nav {
+    margin-top: 2rem;
+    border-radius: 10px 10px 0 0; 
+
+}
+
+.menu {
+    margin-top: 2px;
+
 }
 
 /* buttons */
@@ -48,7 +59,7 @@ body {
 
 .add {
     padding: 0.5rem 0.5rem;
-    border-radius: 5%;
+    border-radius: 5px;
     font-weight: bold;
 }
 
