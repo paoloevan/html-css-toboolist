@@ -77,6 +77,14 @@ body {
 }
 
 /* container menu */
+.name_section {
+    margin-top: 2rem;
+}
+
+.action {
+    margin-bottom: 1rem;
+}
+
 h3 {
     display: inline;
 }
@@ -86,14 +94,34 @@ h3 {
     border-radius: 50%;
     color: var(--tobo-green);
 }
+
+.cross {
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+
+}
+
 .item {
     font-weight: 3000;
 }
 
 .description {
     font-size: 0.7rem;
-    background-color: #47ADF1;
     padding: 5px;
     border-radius: 8px;
     color: white;
+}
+
+.editorial {
+    background-color: var(--tobo-blue);
+
+}
+
+.goals {
+    background-color: var(--tobo-purple);
+}
+
+.recruiting {
+   background-color: var(--tobo-green); 
 }
